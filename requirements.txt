@@ -11,4 +11,4 @@ smmap==5.0.1
 Werkzeug==3.0.6
 zipp==3.20.2
 flask-cors==4.0.0
-youtube-transcript-api==0.6.1
+youtube-transcript-api==1.1.1
