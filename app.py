@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from youtube_transcript_api import YouTubeTranscriptApi
 from flask_cors import CORS
-# from pytube import YouTube
 
 def get_video_id(url_link):
     return url_link.split("watch?v=")[-1]
